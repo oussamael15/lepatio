@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Patio | Carte</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        header {
+            background-color: burlywood;
+        }
+
+        main {
+            background-color: black;
+        }
+
+        footer {
+            background-color: burlywood;
+        }
+
+        .titre {
+            color: rgb(66, 22, 22);
+        }
+
+        .bouton1:hover,
+        .bouton2:hover,
+        .bouton3:hover {
+            color: darkolivegreen;
+            background-color: wheat;
+            border-color: wheat;
+        }
+
+        .bouton1:active,
+        .bouton1:focus,
+        .bouton1:focus-visible,
+        .bouton2:active,
+        .bouton2:focus,
+        .bouton2:focus-visible,
+        .bouton3:active,
+        .bouton3:focus,
+        .bouton3:focus-visible {
+            background-color: #EACB9D !important;
+            color: darkolivegreen !important;
+            border-color: burlywood !important;
+            box-shadow: none !important;
+        }
+
+        .bouton1,
+        .bouton2,
+        .bouton3 {
+            color: darkolivegreen;
+            border-color: burlywood;
+        }
+
+        h1,
+        h2 {
+            color: white;
+        }
+
+        .card-img-top {
+            height: 220px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav>
+            <div class="container text-center py-2 fw-bold fs-4">
+                <span class="titre">
+                    Le Patio
+                </span>
+            </div>
+            <div class="container d-flex justify-content-center gap-5 align-items-center py-1">
+                <a class="btn btn-outline-primary fw-bold bouton1" href="index.html">Accueil</a>
+                <a class="btn btn-outline-primary fw-bold bouton2" href="carte.html">Carte</a>
+                <a class="btn btn-outline-primary fw-bold bouton3" href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="flex-grow-1">
+        <section>
+            <div class="container py-4">
+                <div>
+                    <h1 class="text-center">Notre carte</h1>
+                </div>
+                <div>
+                    <h2 class="text-center">Nos entrées</h2>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/entrees/assiette-mediterraneenne.jpg"
+                                alt="Assiette méditerraneenne">
+                            <div class="card-body">
+                                <h3 class="card-title">Assiette méditerraneenne</h3>
+                                <p class="card-text">Houmous, tapenade, légumes grillés et pain pita.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/entrees/bruschetta-italienne.jpg"
+                                alt="Bruschetta italienne">
+                            <div class="card-body">
+                                <h3 class="card-title">Bruschetta italienne</h3>
+                                <p class="card-text">Pain grillé, tomates fraîches, basilic et mozzarella.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/entrees/gambas-croustillantes.jpg"
+                                alt="Gambas croustillantes">
+                            <div class="card-body">
+                                <h3 class="card-title">Gambas croustillantes</h3>
+                                <p class="card-text">Gambas panées et croustillantes, accompagnées d'une sauce maison.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/entrees/salade-de-chevre-chaud.jpg"
+                                alt="Salade de chèvre chaud">
+                            <div class="card-body">
+                                <h3 class="card-title">Salade de chèvre chaud</h3>
+                                <p class="card-text">Salade verte, toasts de chèvre chaud, noix et miel.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/entrees/soupe-a-l-oignon-gratinee.jpg"
+                                alt="Soupe à l'oignon gratinée">
+                            <div class="card-body">
+                                <h3 class="card-title">Soupe à l'oignon gratinée</h3>
+                                <p class="card-text">Soupe traditionnelle aux oignons, recouverte de fromage gratiné.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 class="text-center">Nos plats</h2>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/principaux/burger-du-patio.jpg" alt="Burger du Patio">
+                            <div class="card-body">
+                                <h3 class="card-title">Burger du Patio</h3>
+                                <p class="card-text">Pain brioché, steak haché, cheddar, salade, tomates et sauce maison, servi avec des frites.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/principaux/côtelettes-d-agneau.jpg"
+                                alt="Côtelettes d'agneau">
+                            <div class="card-body">
+                                <h3 class="card-title">Côtelettes d'agneau</h3>
+                                <p class="card-text">Côtelettes d'agneau grillées, servies avec des pommes de terre rôties et des herbes aromatiques.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/principaux/dorade-grillée.jpg" alt="Dorade grillée">
+                            <div class="card-body">
+                                <h3 class="card-title">Dorade grillée</h3>
+                                <p class="card-text">Dorade entière grillée, accompagnée de légumes méditerranéens et d'un filet de citron.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/principaux/entrecote-grillee.jpg"
+                                alt="Entrecôte grillée">
+                            <div class="card-body">
+                                <h3 class="card-title">Entrecôte grillée</h3>
+                                <p class="card-text">	Entrecôte de bœuf grillée, accompagnée de frites maison et de légumes de saison.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/principaux/lasagnes-a-la-bolognaise.jpg"
+                                alt="Lasagnes à la bolognaise">
+                            <div class="card-body">
+                                <h3 class="card-title">Lasagnes à la bolognaise</h3>
+                                <p class="card-text">Pâtes fraîches garnies de viande hachée, de sauce tomate et de béchamel gratinée.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/principaux/pavé-de-saumon.jpg" alt="Pavé de saumon">
+                            <div class="card-body">
+                                <h3 class="card-title">Pavé de saumon</h3>
+                                <p class="card-text">Pavé de saumon frais, accompagné de riz et d'une sauce citronnée.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/principaux/risotto-aux-champignons.jpg"
+                                alt="Risotto aux champigons">
+                            <div class="card-body">
+                                <h3 class="card-title">Risotto aux champigons</h3>
+                                <p class="card-text">Riz crémeux cuisiné au parmesan, accompagné de champignons frais.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/principaux/spaghetti-carbonara.jpg"
+                                alt="Spaghetti carbonara">
+                            <div class="card-body">
+                                <h3 class="card-title">Spaghetti carbonara</h3>
+                                <p class="card-text">Spaghetti accompagnés de lardons, de parmesan et d'une sauce crémeuse.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/principaux/suprême-de-poulet.jpg"
+                                alt="Suprême de poulet">
+                            <div class="card-body">
+                                <h3 class="card-title">Suprême de poulet</h3>
+                                <p class="card-text">Filet de poulet tendre, servi avec une sauce crémeuse aux champignons et des pommes de terre rôties.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/principaux/tajine-de-poulet.jpg"
+                                alt="Tajine de poulet">
+                            <div class="card-body">
+                                <h3 class="card-title">Tajine de poulet</h3>
+                                <p class="card-text">Poulet mijoté aux épices, accompagné de légumes, d'olives et de citron confit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h2 class="text-center">Nos desserts</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/desserts/crème-brûlée.jpg" alt="Crème brûlée">
+                            <div class="card-body">
+                                <h3 class="card-title">Crème brûlée</h3>
+                                <p class="card-text">Crème onctueuse à la vanille, recouverte d'une fine couche de caramel croustillant.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/desserts/fondant-au-chocolat.jpg"
+                                alt="Fondant au chocolat">
+                            <div class="card-body">
+                                <h3 class="card-title">Fondant au chocolat</h3>
+                                <p class="card-text">Gâteau au chocolat au cœur fondant, servi avec une boule de glace vanille.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/desserts/panna-cotta.jpg" alt="Panna cotta">
+                            <div class="card-body">
+                                <h3 class="card-title">Panna cotta</h3>
+                                <p class="card-text">Crème délicatement vanillée, accompagnée d'un coulis de fruits rouges.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/desserts/tarte-aux-pommes.jpg" alt="Tarte aux pommes">
+                            <div class="card-body">
+                                <h3 class="card-title">Tarte aux pommes</h3>
+                                <p class="card-text">Pâte croustillante garnie de pommes fondantes et légèrement caramélisées.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/desserts/tiramisu-maison.jpg" alt="Tiramisu maison">
+                            <div class="card-body">
+                                <h3 class="card-title">Tiramisu maison</h3>
+                                <p class="card-text">Dessert italien composé de biscuits imbibés de café, de mascarpone et de cacao.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <div>Le Patio | Restauration authentique</div>
+        <div>© 2026 Le Patio — Tous droits réservés.</div>
+    </footer>
+
+</body>
+
+</html>

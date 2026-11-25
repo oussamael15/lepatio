@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Patio | Accueil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        header {
+            background-color: burlywood;
+        }
+
+        main {
+            background-color: black;
+        }
+
+        footer {
+            background-color: burlywood;
+        }
+
+        .titre {
+            color: rgb(66, 22, 22);
+        }
+
+        .bouton1:hover,
+        .bouton2:hover,
+        .bouton3:hover {
+            color: darkolivegreen;
+            background-color: wheat;
+            border-color: wheat;
+        }
+
+        .bouton1:active,
+        .bouton1:focus,
+        .bouton1:focus-visible,
+        .bouton2:active,
+        .bouton2:focus,
+        .bouton2:focus-visible,
+        .bouton3:active,
+        .bouton3:focus,
+        .bouton3:focus-visible {
+            background-color: #EACB9D !important;
+            color: darkolivegreen !important;
+            border-color: burlywood !important;
+            box-shadow: none !important;
+        }
+
+        .bouton1,
+        .bouton2,
+        .bouton3 {
+            color: darkolivegreen;
+            border-color: burlywood;
+        }
+
+        .description {
+            color: white;
+            margin-bottom: 20rem;
+        }
+
+        .titre-principal {
+            color: white;
+            margin-bottom: 2.5rem;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav>
+            <div class="container text-center py-2 fw-bold fs-4">
+                <span class="titre">
+                    Le Patio
+                </span>
+            </div>
+            <div class="container d-flex justify-content-center gap-5 align-items-center py-1">
+                <a class="btn btn-outline-primary fw-bold bouton1" href="index.html">Accueil</a>
+                <a class="btn btn-outline-primary fw-bold bouton2" href="carte.html">Carte</a>
+                <a class="btn btn-outline-primary fw-bold bouton3" href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="flex-grow-1">
+        <section class="row align-items-center g-0">
+            <div class="col-md-8 px-4 px-md-5">
+                <h1 class="titre-principal">Le Patio, un lieu de convivialité</h1>
+                <p class="description">Découvrez une cuisine authentique, préparée avec soin à partir de produits de
+                    qualité. Le Patio vous accueille dans une ambiance chaleureuse pour partager un agréable moment.
+                </p>
+            </div>
+            <div class="col-md-4 ms-auto">
+                <img class="img-fluid w-100" src="images/index.jpg"></img>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center">
+        <div>Le Patio | Restauration authentique</div>
+        <div>© 2026 Le Patio — Tous droits réservés.</div>
+    </footer>
+
+</body>
+
+</html>
